@@ -52,9 +52,6 @@ const User = () => {
         fetchHistory();
     }, [user]);
 
-    const handleChangeQuestion = (id) => {
-        setQNum(id);
-    }
 
     const changeAnswer = (questionNum, option) => {
         setAnswer((prev) => ({
@@ -170,7 +167,6 @@ const User = () => {
                     <div className="shadow-lg border-0 mb-4" style={{ borderRadius: '20px' }}>
                         <div className="bg-white border-0 text-center py-3" style={{ borderRadius: '20px 20px 0 0' }}>
                             <h5 className="mb-0" >
-                                <i className="fas fa-list-ol me-2"></i>
                                 Danh sách câu hỏi
                             </h5>
                         </div>
@@ -182,8 +178,8 @@ const User = () => {
                                 {question.map((q, index) => (
                                     <button
                                         key={index}
-                                        className={`btn ${index === qNum ? 'btn-primary' : 'btn-outline-primary'}`}
-                                        onClick={() => handleChangeQuestion(index)}
+                                        className={`btn ${index === qNum ? 'btn-primary' : answer[index] ? 'btn-success' : 'btn-outline-primary'}`}
+                                        onClick={() => setQNum(index)}
                                         style={{
                                             width: '70px',
                                             height: '45px',
@@ -202,7 +198,7 @@ const User = () => {
                                     <div className="col-6">
                                         <button
                                             className="btn btn-outline-secondary w-100 py-2"
-                                            onClick={() => handleChangeQuestion(qNum - 1)}
+                                            onClick={() => setQNum(qNum - 1)}
                                             disabled={qNum === 0}
                                         >
                                             Trước
@@ -211,7 +207,7 @@ const User = () => {
                                     <div className="col-6">
                                         <button
                                             className="btn btn-outline-secondary w-100 py-2"
-                                            onClick={() => handleChangeQuestion(qNum + 1)}
+                                            onClick={() => setQNum(qNum + 1)}
                                             disabled={qNum === question.length - 1}
                                         >
                                             Tiếp
