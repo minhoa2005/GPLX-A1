@@ -5,6 +5,7 @@ import { userContext } from "../userContext";
 
 const API_Q = "http://localhost:3001/questions";
 const API_H = "http://localhost:3001/history";
+const API_T = "http://localhost:3001/test";
 
 const User = () => {
     const [qNum, setQNum] = useState(0);
@@ -12,23 +13,40 @@ const User = () => {
     const [origin, setOrigin] = useState([]);
     const [answer, setAnswer] = useState({});
     const [history, setHistory] = useState([]);
+    const [showDetailedResults, setShowDetailedResults] = useState(false);
+    const [currentTestResults, setCurrentTestResults] = useState([]);
+
     const { user } = useContext(userContext);
 
 
     const fetchQuestions = async () => {
         try {
             const response = await axios.get(API_Q);
-            console.log("Response: ", response.data);
             if (response) {
-                setQuestion(response.data);
-                setOrigin(response.data);
+                const questionsWithAnswerText = response.data.map(q => {
+                    const idx = typeof q.answer === 'number' ? q.answer : parseInt(q.answer);
+                    const correctAnswerText = q.options[idx + 1];
+                    const shuffledOptions = [...q.options].sort(() => 0.5 - Math.random());
+                    return {
+                        ...q,
+                        options: shuffledOptions,
+                        answer: correctAnswerText
+                    };
+                });
+                setQuestion(questionsWithAnswerText);
+                setOrigin(questionsWithAnswerText);
             }
         } catch (error) {
             console.error("Error: ", error);
         }
     }
 
-    console.log(user)
+    // const fetchTestDetail = async () => {
+    //     try {
+    //         const response = await axios.get(`${API_T}?userId=${user.id}`);
+
+    //     }
+    // }
 
     const fetchHistory = async () => {
         try {
@@ -44,6 +62,28 @@ const User = () => {
         }
         catch (error) {
             window.alert('Lỗi: ', error);
+        }
+    }
+
+    const fetchTestDetails = async (testTime) => {
+        try {
+            if (user) {
+                const response = await axios.get(`${API_T}?userId=${user.id}&time=${testTime}`);
+                if (response.data && response.data.length > 0) {
+                    const testData = response.data[0];
+                    if (testData.detailedResults) {
+                        setCurrentTestResults(testData.detailedResults);
+                        setShowDetailedResults(true);
+
+                    } else {
+                        window.alert('Không có dữ liệu chi tiết cho bài thi này');
+                    }
+                }
+            }
+        }
+        catch (error) {
+            console.error('Lỗi khi lấy chi tiết bài thi:', error);
+            window.alert('Không thể lấy chi tiết bài thi');
         }
     }
 
@@ -66,29 +106,55 @@ const User = () => {
             let result = 0;
             const testType = question.length === 200 ? '200 câu lý thuyết' : 'Đề thi ngẫu nhiên 25 câu'
             const questionLength = question.length;
+            const detailedResults = [];
             if (window.confirm("Bạn có chắc chắn muốn nộp bài không ? ")) {
                 question.forEach((q, index) => {
-                    if (answer[index] + 1 === parseInt(q.answer)) {
+                    const userAnswer = answer[index] ? answer[index] : 'Không chọn';
+                    const correctAnswer = q.answer;
+                    const isCorrect = userAnswer === correctAnswer;
+                    console.log(userAnswer)
+                    if (isCorrect) {
                         result++;
                     }
+                    detailedResults.push({
+                        questionId: q.id,
+                        questionText: q.question_text,
+                        options: q.options,
+                        userAnswer: userAnswer,
+                        correctAnswer: correctAnswer,
+                        isCorrect: isCorrect
+                    });
+                    console.log(detailedResults)
                 })
+                const timestamp = Date.now();
                 if (user) {
                     await axios.post(API_H, {
                         userId: user.id,
-                        time: new Date().toLocaleDateString(),
+                        time: timestamp,
                         score: result,
                         total: questionLength,
                         type: testType
-                    })
+                    });
+                    await axios.post(API_T, {
+                        userId: user.id,
+                        time: timestamp,
+                        userAnswers: answer,
+                        detailedResults: detailedResults,
+                        score: result,
+                        total: questionLength,
+                        type: testType
+                    });
+
                 }
-                setHistory((prev) => [...prev, { time: new Date().toLocaleDateString(), score: result, total: questionLength, type: testType }]);
+                setHistory((prev) => [...prev, { time: timestamp, score: result, total: questionLength, type: testType }]);
+                setCurrentTestResults(detailedResults);
                 setAnswer({});
                 setQNum(0);
                 window.alert(`Số câu đúng: ${result}/${question.length}`);
             }
         }
         catch (error) {
-
+            console.error("Lỗi khi lưu bài làm:", error);
         }
     }
 
@@ -148,8 +214,8 @@ const User = () => {
                                                 type="radio"
                                                 name={qNum}
                                                 value={option}
-                                                checked={answer[qNum] === index}
-                                                onChange={() => changeAnswer(qNum, index)}
+                                                checked={answer[qNum] === option}
+                                                onChange={() => changeAnswer(qNum, option)}
                                                 className="form-check-input"
                                             />
                                             <span className="ms-2">
@@ -178,7 +244,7 @@ const User = () => {
                                 {question.map((q, index) => (
                                     <button
                                         key={index}
-                                        className={`btn ${index === qNum ? 'btn-primary' : answer[index] ? 'btn-success' : 'btn-outline-primary'}`}
+                                        className={`btn ${index === qNum ? 'btn-primary' : answer[index] !== undefined ? 'btn-success' : 'btn-outline-primary'}`}
                                         onClick={() => setQNum(index)}
                                         style={{
                                             width: '70px',
@@ -278,6 +344,9 @@ const User = () => {
                                                 <th className="py-3 px-4">
                                                     Loại
                                                 </th>
+                                                <th className="py-3 px-4">
+                                                    Hành động
+                                                </th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -289,7 +358,7 @@ const User = () => {
                                                         </span>
                                                     </td>
                                                     <td className="py-3 px-4" >
-                                                        {h.time}
+                                                        {new Date(h.time).toLocaleString()}
                                                     </td>
                                                     <td className="py-3 px-4">
                                                         <span className="" >
@@ -298,6 +367,14 @@ const User = () => {
                                                     </td>
                                                     <td className="py-3 px-4">
                                                         {h.type}
+                                                    </td>
+                                                    <td className="py-3 px-4">
+                                                        <button
+                                                            className="btn btn-sm btn-outline-primary"
+                                                            onClick={() => fetchTestDetails(h.time)}
+                                                        >
+                                                            Xem chi tiết
+                                                        </button>
                                                     </td>
                                                 </tr>
                                             ))}
@@ -318,6 +395,81 @@ const User = () => {
                     </div>
                 </div>
             </div>
+
+
+
+            {showDetailedResults && (
+                <div className="modal fade show" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }}>
+                    <div className="modal-dialog modal-lg modal-dialog-scrollable">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title">Kết quả chi tiết</h5>
+                                <button
+                                    type="button"
+                                    className="btn-close"
+                                    onClick={() => setShowDetailedResults(false)}
+                                ></button>
+                            </div>
+                            <div className="modal-body">
+                                {currentTestResults.map((result, index) => (
+                                    <div key={index} className="mb-4 p-3 border rounded">
+                                        <div className="d-flex justify-content-between align-items-center mb-2">
+                                            <h6>Câu {index + 1}</h6>
+                                            <span className={`badge ${result.isCorrect ? 'bg-success' : 'bg-danger'}`}>
+                                                {result.isCorrect ? 'Đúng' : 'Sai'}
+                                            </span>
+                                        </div>
+                                        <p className="fw-bold mb-2">{result.questionText}</p>
+                                        <div className="mb-2">
+                                            <small className="text-muted">Các lựa chọn:</small>
+                                            <ul className="list-unstyled ms-3">
+                                                {result.options.map((option, optIndex) => (
+                                                    <>
+                                                        <div className="d-flex gap-2">
+                                                            <p>{optIndex + 1} - </p>
+                                                            <li key={optIndex} className={`
+                                                        ${optIndex === result.correctAnswer ? 'text-success fw-bold' : ''}
+                                                        ${optIndex === result.userAnswer && !result.isCorrect ? 'text-danger' : ''}
+                                                    `}>
+                                                                {optIndex === result.correctAnswer && <i className="fas fa-check me-1"></i>}
+                                                                {optIndex === result.userAnswer && !result.isCorrect && <i className="fas fa-times me-1"></i>}
+                                                                {option}
+                                                            </li>
+                                                        </div>
+                                                    </>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <small className="text-muted">Bạn đã chọn:</small>
+                                                <p className={`mb-0 ${result.isCorrect ? 'text-success' : 'text-danger'}`}>
+                                                    {result.userAnswer}
+                                                </p>
+                                            </div>
+                                            <div className="col-md-6">
+                                                <small className="text-muted">Đáp án đúng:</small>
+                                                <p className="mb-0 text-success">
+                                                    {result.correctAnswer}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                            <div className="modal-footer">
+                                <button
+                                    type="button"
+                                    className="btn btn-secondary"
+                                    onClick={() => setShowDetailedResults(false)}
+                                >
+                                    Đóng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
