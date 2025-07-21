@@ -677,6 +677,1241 @@
       "score": 1,
       "total": 25,
       "type": "Đề thi ngẫu nhiên 25 câu"
+    },
+    {
+      "id": "77be",
+      "userId": "1",
+      "time": 1752844983980,
+      "userAnswers": {
+        "0": "Được mang, vác tùy trường hợp cụ thể."
+      },
+      "detailedResults": [
+        {
+          "questionId": "29",
+          "questionText": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được mang, vác vật cồng kềnh hay không?",
+          "options": [
+            "Được mang, vác tùy trường hợp cụ thể.",
+            "Được mang, vác tùy theo sức khỏe của bản thân.",
+            "Không được mang, vác.",
+            "Được mang, vác nhưng phải đảm bảo an toàn."
+          ],
+          "userAnswer": "Được mang, vác tùy trường hợp cụ thể.",
+          "correctAnswer": "Được mang, vác tùy theo sức khỏe của bản thân.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "4",
+          "questionText": "“Dải phân cách” trên đường bộ gồm những loại nào?",
+          "options": [
+            "Dải phân cách gồm giá long môn và biển báo hiệu đường bộ.",
+            "Dải phân cách gồm tường chống ồn, hộ lan cứng và hộ lan mềm.",
+            "Dải phân cách gồm loại cố định và loại di động."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Dải phân cách gồm giá long môn và biển báo hiệu đường bộ.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "1",
+          "questionText": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì ?",
+          "options": [
+            "Phần đường xe cơ giới.",
+            "Phần mặt đường và lề đường.",
+            "Phần đường xe chạy."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "10",
+          "questionText": "“Người tham gia giao thông đường bộ” gồm những đối tượng nào?",
+          "options": [
+            "Cả ý 1 và ý 2.",
+            "Người điều khiển, người sử dụng phương tiện tham gia giao thông đường bộ.",
+            "Người điều khiển, dẫn dắt súc vật; người đi bộ trên đường bộ."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "30",
+          "questionText": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được bám, kéo hoặc đẩy các phương tiện khác không?",
+          "options": [
+            "Không được phép.",
+            "Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng.",
+            "Được bám trong trường hợp phương tiện của mình bị hỏng.",
+            "Được phép."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "32",
+          "questionText": "Khi đang lên dốc người ngồi trên xe mô tô có được kéo theo người đang điều khiển xe đạp hay không?",
+          "options": [
+            "Chỉ được thực hiện trên đường thật vắng.",
+            "Chỉ được phép khi người đi xe đạp đã quá mệt.",
+            "Không được phép.",
+            "Chỉ được phép nếu cả hai đội mũ bảo hiểm."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Chỉ được phép khi người đi xe đạp đã quá mệt.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "35",
+          "questionText": "Người đủ bao nhiêu tuổi trở lên thì được điều khiển xe mô tô hai bánh, xe mô tô ba bánh có dung tích xi lanh từ 50 cm3 trở lên và các loại xe có kết cấu tương tự; xe ô tô tải, máy kéo có trọng tải dưới 3,5 tấn; xe ô tô chở người đến 9 chỗ ngồi?",
+          "options": [
+            "17 tuổi.",
+            "18 tuổi.",
+            "16 tuổi."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "59",
+          "questionText": "Người điều khiển xe mô tô hai bánh, xe gắn máy được phép chở tối đa 2 người trong những trường hợp nào?",
+          "options": [
+            "Chở người bệnh đi cấp cứu; trẻ em dưới 14 tuổi.",
+            "Áp giải người có hành vi vi phạm pháp luật.",
+            "Cả ý 1 và ý 2."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "38",
+          "questionText": "Người có giấy phép lái xe mô tô hạng A1 được phép điều khiển loại xe nào dưới đây?",
+          "options": [
+            "Xe mô tô ba bánh dùng cho người khuyết tật.",
+            "Xe mô tô hai bánh có dung tích xi lanh từ 50 cm3 đến dưới 175 cm3.",
+            "Cả ý 1 và ý 2."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "71",
+          "questionText": "Trên đường bộ (trừ đường cao tốc) trong khu vực đông dân cư, đường hai chiều không có dải phân cách giữa, xe mô tô hai bánh, ô tô chở người đến 30 chỗ tham gia giao thông với tốc độ tối đa cho phép là bao nhiêu?",
+          "options": [
+            "60 km/h.",
+            "50 km/h.",
+            "40 km/h."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "44",
+          "questionText": "Khi gặp hiệu lệnh như dưới đây của cảnh sát giao thông thì người tham gia giao thông phải đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Người tham gia giao thông ở các hướng được đi theo chiều gậy chỉ của cảnh sát giao thông.",
+            "Người tham gia giao thông ở phía trước và phía sau người điều khiển được đi tất cả các hướng; người tham gia giao thông ở phía bên phải và phía bên trái người điều khiển phải dừng lại.",
+            "Người tham gia giao thông ở các hướng phải dừng lại.",
+            "Người tham gia giao thông ở phía trước và phía sau người điều khiển phải dừng lại; người tham gia giao thông ở phía bên phải và phía bên trái người điều khiển được đi tất cả các hướng."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "73",
+          "questionText": "Khi điều khiển xe chạy với tốc độ dưới 60 km/h, để đảm bảo khoảng cách an toàn giữa hai xe, người lái xe phải điều khiển xe như thế nào?",
+          "options": [
+            "Cả ý 1 và ý 2.",
+            "Đảm bảo khoảng cách an toàn theo mật độ phương tiện, tình hình giao thông thực tế.",
+            "Chủ động giữ khoảng cách an toàn phù hợp với xe chạy liền trước xe của mình."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "55",
+          "questionText": "Tại nơi đường giao nhau không có báo hiệu đi theo vòng xuyến, người điều khiển phương tiện phải nhường đường như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Phải nhường đường cho xe đi đến từ bên phải.",
+            "Xe báo hiệu xin đường trước xe đó được đi trước.",
+            "Phải nhường đường cho xe đi đến từ bên trái."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Phải nhường đường cho xe đi đến từ bên trái.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "119",
+          "questionText": "Chiều dài đoạn đường 500 m từ nơi đặt biển này, người lái xe có được phép bấm còi không?",
+          "options": [
+            "Không được phép.",
+            "Được phép."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "149",
+          "questionText": "Biển nào báo hiệu “Đường một chiều”?",
+          "options": [
+            "Cả hai biển.",
+            "Biển 2.",
+            "Biển 1."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "116",
+          "questionText": "Gặp biển nào xe xích lô được phép đi vào?",
+          "options": [
+            "Biển 1.",
+            "Biển 2.",
+            "Biển 3.",
+            "Biển 1 và biển 2."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "131",
+          "questionText": "Biển nào báo hiệu sắp đến chỗ giao nhau giữa đường bộ và đường sắt?",
+          "options": [
+            "Biển 1.",
+            "Biển 1 và 3.",
+            "Biển 2.",
+            "Biển 3."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "186",
+          "questionText": "Trong trường hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Xe mô tô + xe con, xe quân sự, xe công an.",
+            "Xe quân sự, xe công an, xe con +mô tô.",
+            "Xe công an, xe quân sự, xe con + mô tô."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "165",
+          "questionText": "Vạch dưới đây có ý nghĩa gì?",
+          "options": [
+            "Dùng để xác định vị trí giữa các phương tiện trên đường.",
+            "Vị trí dừng xe của các phương tiện vận tải hành khách công cộng.",
+            "Báo cho người điều khiển được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Dùng để xác định vị trí giữa các phương tiện trên đường.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "193",
+          "questionText": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Xe khách, xe mô tô, xe con.",
+            "Xe tải, xe khách, xe mô tô.",
+            "Xe con, xe khách, xe tải.",
+            "Cả bốn xe."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Cả bốn xe.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "183",
+          "questionText": "Theo hướng mũi tên, xe nào được phép đi?",
+          "options": [
+            "Mô tô, xe con.",
+            "Xe con, xe tải.",
+            "Mô tô, xe tải.",
+            "Cả ba xe."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "190",
+          "questionText": "Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Cả hai xe.",
+            "Xe mô tô.",
+            "Xe ô tô con.",
+            "Không xe nào vi phạm."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "181",
+          "questionText": "Xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Xe con và mô tô.",
+            "Xe con.",
+            "Mô tô.",
+            "Xe khách."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "172",
+          "questionText": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Mô tô, xe tải, xe khách, xe con.",
+            "Mô tô, xe tải, xe con, xe khách.",
+            "Xe khách, xe tải, mô tô, xe con.",
+            "Xe con, xe khách, xe tải, mô tô."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "197",
+          "questionText": "Bạn xử lý như thế nào trong trường hợp này?",
+          "options": [
+            "Tăng tốc độ, rẽ phải trước xe tải và xe đạp.",
+            "Giảm tốc độ, rẽ phải sau xe tải và xe đạp.",
+            "Tăng tốc độ, rẽ phải trước xe đạp."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        }
+      ],
+      "score": 0,
+      "total": 25,
+      "type": "Đề thi ngẫu nhiên 25 câu"
+    },
+    {
+      "id": "508b",
+      "userId": "1",
+      "time": 1752845038108,
+      "userAnswers": {},
+      "detailedResults": [
+        {
+          "questionId": "29",
+          "questionText": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được mang, vác vật cồng kềnh hay không?",
+          "options": [
+            "Được mang, vác tùy trường hợp cụ thể.",
+            "Được mang, vác tùy theo sức khỏe của bản thân.",
+            "Không được mang, vác.",
+            "Được mang, vác nhưng phải đảm bảo an toàn."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Được mang, vác tùy theo sức khỏe của bản thân.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "4",
+          "questionText": "“Dải phân cách” trên đường bộ gồm những loại nào?",
+          "options": [
+            "Dải phân cách gồm giá long môn và biển báo hiệu đường bộ.",
+            "Dải phân cách gồm tường chống ồn, hộ lan cứng và hộ lan mềm.",
+            "Dải phân cách gồm loại cố định và loại di động."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Dải phân cách gồm giá long môn và biển báo hiệu đường bộ.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "1",
+          "questionText": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì ?",
+          "options": [
+            "Phần đường xe cơ giới.",
+            "Phần mặt đường và lề đường.",
+            "Phần đường xe chạy."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "10",
+          "questionText": "“Người tham gia giao thông đường bộ” gồm những đối tượng nào?",
+          "options": [
+            "Cả ý 1 và ý 2.",
+            "Người điều khiển, người sử dụng phương tiện tham gia giao thông đường bộ.",
+            "Người điều khiển, dẫn dắt súc vật; người đi bộ trên đường bộ."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "30",
+          "questionText": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được bám, kéo hoặc đẩy các phương tiện khác không?",
+          "options": [
+            "Không được phép.",
+            "Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng.",
+            "Được bám trong trường hợp phương tiện của mình bị hỏng.",
+            "Được phép."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "32",
+          "questionText": "Khi đang lên dốc người ngồi trên xe mô tô có được kéo theo người đang điều khiển xe đạp hay không?",
+          "options": [
+            "Chỉ được thực hiện trên đường thật vắng.",
+            "Chỉ được phép khi người đi xe đạp đã quá mệt.",
+            "Không được phép.",
+            "Chỉ được phép nếu cả hai đội mũ bảo hiểm."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Chỉ được phép khi người đi xe đạp đã quá mệt.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "35",
+          "questionText": "Người đủ bao nhiêu tuổi trở lên thì được điều khiển xe mô tô hai bánh, xe mô tô ba bánh có dung tích xi lanh từ 50 cm3 trở lên và các loại xe có kết cấu tương tự; xe ô tô tải, máy kéo có trọng tải dưới 3,5 tấn; xe ô tô chở người đến 9 chỗ ngồi?",
+          "options": [
+            "17 tuổi.",
+            "18 tuổi.",
+            "16 tuổi."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "59",
+          "questionText": "Người điều khiển xe mô tô hai bánh, xe gắn máy được phép chở tối đa 2 người trong những trường hợp nào?",
+          "options": [
+            "Chở người bệnh đi cấp cứu; trẻ em dưới 14 tuổi.",
+            "Áp giải người có hành vi vi phạm pháp luật.",
+            "Cả ý 1 và ý 2."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "38",
+          "questionText": "Người có giấy phép lái xe mô tô hạng A1 được phép điều khiển loại xe nào dưới đây?",
+          "options": [
+            "Xe mô tô ba bánh dùng cho người khuyết tật.",
+            "Xe mô tô hai bánh có dung tích xi lanh từ 50 cm3 đến dưới 175 cm3.",
+            "Cả ý 1 và ý 2."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "71",
+          "questionText": "Trên đường bộ (trừ đường cao tốc) trong khu vực đông dân cư, đường hai chiều không có dải phân cách giữa, xe mô tô hai bánh, ô tô chở người đến 30 chỗ tham gia giao thông với tốc độ tối đa cho phép là bao nhiêu?",
+          "options": [
+            "60 km/h.",
+            "50 km/h.",
+            "40 km/h."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "44",
+          "questionText": "Khi gặp hiệu lệnh như dưới đây của cảnh sát giao thông thì người tham gia giao thông phải đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Người tham gia giao thông ở các hướng được đi theo chiều gậy chỉ của cảnh sát giao thông.",
+            "Người tham gia giao thông ở phía trước và phía sau người điều khiển được đi tất cả các hướng; người tham gia giao thông ở phía bên phải và phía bên trái người điều khiển phải dừng lại.",
+            "Người tham gia giao thông ở các hướng phải dừng lại.",
+            "Người tham gia giao thông ở phía trước và phía sau người điều khiển phải dừng lại; người tham gia giao thông ở phía bên phải và phía bên trái người điều khiển được đi tất cả các hướng."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "73",
+          "questionText": "Khi điều khiển xe chạy với tốc độ dưới 60 km/h, để đảm bảo khoảng cách an toàn giữa hai xe, người lái xe phải điều khiển xe như thế nào?",
+          "options": [
+            "Cả ý 1 và ý 2.",
+            "Đảm bảo khoảng cách an toàn theo mật độ phương tiện, tình hình giao thông thực tế.",
+            "Chủ động giữ khoảng cách an toàn phù hợp với xe chạy liền trước xe của mình."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "55",
+          "questionText": "Tại nơi đường giao nhau không có báo hiệu đi theo vòng xuyến, người điều khiển phương tiện phải nhường đường như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Phải nhường đường cho xe đi đến từ bên phải.",
+            "Xe báo hiệu xin đường trước xe đó được đi trước.",
+            "Phải nhường đường cho xe đi đến từ bên trái."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Phải nhường đường cho xe đi đến từ bên trái.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "119",
+          "questionText": "Chiều dài đoạn đường 500 m từ nơi đặt biển này, người lái xe có được phép bấm còi không?",
+          "options": [
+            "Không được phép.",
+            "Được phép."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "149",
+          "questionText": "Biển nào báo hiệu “Đường một chiều”?",
+          "options": [
+            "Cả hai biển.",
+            "Biển 2.",
+            "Biển 1."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "116",
+          "questionText": "Gặp biển nào xe xích lô được phép đi vào?",
+          "options": [
+            "Biển 1.",
+            "Biển 2.",
+            "Biển 3.",
+            "Biển 1 và biển 2."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "131",
+          "questionText": "Biển nào báo hiệu sắp đến chỗ giao nhau giữa đường bộ và đường sắt?",
+          "options": [
+            "Biển 1.",
+            "Biển 1 và 3.",
+            "Biển 2.",
+            "Biển 3."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "186",
+          "questionText": "Trong trường hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Xe mô tô + xe con, xe quân sự, xe công an.",
+            "Xe quân sự, xe công an, xe con +mô tô.",
+            "Xe công an, xe quân sự, xe con + mô tô."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "165",
+          "questionText": "Vạch dưới đây có ý nghĩa gì?",
+          "options": [
+            "Dùng để xác định vị trí giữa các phương tiện trên đường.",
+            "Vị trí dừng xe của các phương tiện vận tải hành khách công cộng.",
+            "Báo cho người điều khiển được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Dùng để xác định vị trí giữa các phương tiện trên đường.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "193",
+          "questionText": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Xe khách, xe mô tô, xe con.",
+            "Xe tải, xe khách, xe mô tô.",
+            "Xe con, xe khách, xe tải.",
+            "Cả bốn xe."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Cả bốn xe.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "183",
+          "questionText": "Theo hướng mũi tên, xe nào được phép đi?",
+          "options": [
+            "Mô tô, xe con.",
+            "Xe con, xe tải.",
+            "Mô tô, xe tải.",
+            "Cả ba xe."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "190",
+          "questionText": "Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Cả hai xe.",
+            "Xe mô tô.",
+            "Xe ô tô con.",
+            "Không xe nào vi phạm."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "181",
+          "questionText": "Xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Xe con và mô tô.",
+            "Xe con.",
+            "Mô tô.",
+            "Xe khách."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "172",
+          "questionText": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Mô tô, xe tải, xe khách, xe con.",
+            "Mô tô, xe tải, xe con, xe khách.",
+            "Xe khách, xe tải, mô tô, xe con.",
+            "Xe con, xe khách, xe tải, mô tô."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "197",
+          "questionText": "Bạn xử lý như thế nào trong trường hợp này?",
+          "options": [
+            "Tăng tốc độ, rẽ phải trước xe tải và xe đạp.",
+            "Giảm tốc độ, rẽ phải sau xe tải và xe đạp.",
+            "Tăng tốc độ, rẽ phải trước xe đạp."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        }
+      ],
+      "score": 0,
+      "total": 25,
+      "type": "Đề thi ngẫu nhiên 25 câu"
+    },
+    {
+      "id": "3bc2",
+      "userId": "1",
+      "time": 1752845094354,
+      "userAnswers": {},
+      "detailedResults": [
+        {
+          "questionId": "29",
+          "questionText": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được mang, vác vật cồng kềnh hay không?",
+          "options": [
+            "Được mang, vác tùy trường hợp cụ thể.",
+            "Được mang, vác tùy theo sức khỏe của bản thân.",
+            "Không được mang, vác.",
+            "Được mang, vác nhưng phải đảm bảo an toàn."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Được mang, vác tùy theo sức khỏe của bản thân.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "4",
+          "questionText": "“Dải phân cách” trên đường bộ gồm những loại nào?",
+          "options": [
+            "Dải phân cách gồm giá long môn và biển báo hiệu đường bộ.",
+            "Dải phân cách gồm tường chống ồn, hộ lan cứng và hộ lan mềm.",
+            "Dải phân cách gồm loại cố định và loại di động."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Dải phân cách gồm giá long môn và biển báo hiệu đường bộ.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "1",
+          "questionText": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì ?",
+          "options": [
+            "Phần đường xe cơ giới.",
+            "Phần mặt đường và lề đường.",
+            "Phần đường xe chạy."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "10",
+          "questionText": "“Người tham gia giao thông đường bộ” gồm những đối tượng nào?",
+          "options": [
+            "Cả ý 1 và ý 2.",
+            "Người điều khiển, người sử dụng phương tiện tham gia giao thông đường bộ.",
+            "Người điều khiển, dẫn dắt súc vật; người đi bộ trên đường bộ."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "30",
+          "questionText": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được bám, kéo hoặc đẩy các phương tiện khác không?",
+          "options": [
+            "Không được phép.",
+            "Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng.",
+            "Được bám trong trường hợp phương tiện của mình bị hỏng.",
+            "Được phép."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "32",
+          "questionText": "Khi đang lên dốc người ngồi trên xe mô tô có được kéo theo người đang điều khiển xe đạp hay không?",
+          "options": [
+            "Chỉ được thực hiện trên đường thật vắng.",
+            "Chỉ được phép khi người đi xe đạp đã quá mệt.",
+            "Không được phép.",
+            "Chỉ được phép nếu cả hai đội mũ bảo hiểm."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Chỉ được phép khi người đi xe đạp đã quá mệt.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "35",
+          "questionText": "Người đủ bao nhiêu tuổi trở lên thì được điều khiển xe mô tô hai bánh, xe mô tô ba bánh có dung tích xi lanh từ 50 cm3 trở lên và các loại xe có kết cấu tương tự; xe ô tô tải, máy kéo có trọng tải dưới 3,5 tấn; xe ô tô chở người đến 9 chỗ ngồi?",
+          "options": [
+            "17 tuổi.",
+            "18 tuổi.",
+            "16 tuổi."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "59",
+          "questionText": "Người điều khiển xe mô tô hai bánh, xe gắn máy được phép chở tối đa 2 người trong những trường hợp nào?",
+          "options": [
+            "Chở người bệnh đi cấp cứu; trẻ em dưới 14 tuổi.",
+            "Áp giải người có hành vi vi phạm pháp luật.",
+            "Cả ý 1 và ý 2."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "38",
+          "questionText": "Người có giấy phép lái xe mô tô hạng A1 được phép điều khiển loại xe nào dưới đây?",
+          "options": [
+            "Xe mô tô ba bánh dùng cho người khuyết tật.",
+            "Xe mô tô hai bánh có dung tích xi lanh từ 50 cm3 đến dưới 175 cm3.",
+            "Cả ý 1 và ý 2."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "71",
+          "questionText": "Trên đường bộ (trừ đường cao tốc) trong khu vực đông dân cư, đường hai chiều không có dải phân cách giữa, xe mô tô hai bánh, ô tô chở người đến 30 chỗ tham gia giao thông với tốc độ tối đa cho phép là bao nhiêu?",
+          "options": [
+            "60 km/h.",
+            "50 km/h.",
+            "40 km/h."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "44",
+          "questionText": "Khi gặp hiệu lệnh như dưới đây của cảnh sát giao thông thì người tham gia giao thông phải đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Người tham gia giao thông ở các hướng được đi theo chiều gậy chỉ của cảnh sát giao thông.",
+            "Người tham gia giao thông ở phía trước và phía sau người điều khiển được đi tất cả các hướng; người tham gia giao thông ở phía bên phải và phía bên trái người điều khiển phải dừng lại.",
+            "Người tham gia giao thông ở các hướng phải dừng lại.",
+            "Người tham gia giao thông ở phía trước và phía sau người điều khiển phải dừng lại; người tham gia giao thông ở phía bên phải và phía bên trái người điều khiển được đi tất cả các hướng."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "73",
+          "questionText": "Khi điều khiển xe chạy với tốc độ dưới 60 km/h, để đảm bảo khoảng cách an toàn giữa hai xe, người lái xe phải điều khiển xe như thế nào?",
+          "options": [
+            "Cả ý 1 và ý 2.",
+            "Đảm bảo khoảng cách an toàn theo mật độ phương tiện, tình hình giao thông thực tế.",
+            "Chủ động giữ khoảng cách an toàn phù hợp với xe chạy liền trước xe của mình."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "55",
+          "questionText": "Tại nơi đường giao nhau không có báo hiệu đi theo vòng xuyến, người điều khiển phương tiện phải nhường đường như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Phải nhường đường cho xe đi đến từ bên phải.",
+            "Xe báo hiệu xin đường trước xe đó được đi trước.",
+            "Phải nhường đường cho xe đi đến từ bên trái."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Phải nhường đường cho xe đi đến từ bên trái.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "119",
+          "questionText": "Chiều dài đoạn đường 500 m từ nơi đặt biển này, người lái xe có được phép bấm còi không?",
+          "options": [
+            "Không được phép.",
+            "Được phép."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "149",
+          "questionText": "Biển nào báo hiệu “Đường một chiều”?",
+          "options": [
+            "Cả hai biển.",
+            "Biển 2.",
+            "Biển 1."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "116",
+          "questionText": "Gặp biển nào xe xích lô được phép đi vào?",
+          "options": [
+            "Biển 1.",
+            "Biển 2.",
+            "Biển 3.",
+            "Biển 1 và biển 2."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "131",
+          "questionText": "Biển nào báo hiệu sắp đến chỗ giao nhau giữa đường bộ và đường sắt?",
+          "options": [
+            "Biển 1.",
+            "Biển 1 và 3.",
+            "Biển 2.",
+            "Biển 3."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "186",
+          "questionText": "Trong trường hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Xe mô tô + xe con, xe quân sự, xe công an.",
+            "Xe quân sự, xe công an, xe con +mô tô.",
+            "Xe công an, xe quân sự, xe con + mô tô."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "165",
+          "questionText": "Vạch dưới đây có ý nghĩa gì?",
+          "options": [
+            "Dùng để xác định vị trí giữa các phương tiện trên đường.",
+            "Vị trí dừng xe của các phương tiện vận tải hành khách công cộng.",
+            "Báo cho người điều khiển được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Dùng để xác định vị trí giữa các phương tiện trên đường.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "193",
+          "questionText": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Xe khách, xe mô tô, xe con.",
+            "Xe tải, xe khách, xe mô tô.",
+            "Xe con, xe khách, xe tải.",
+            "Cả bốn xe."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Cả bốn xe.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "183",
+          "questionText": "Theo hướng mũi tên, xe nào được phép đi?",
+          "options": [
+            "Mô tô, xe con.",
+            "Xe con, xe tải.",
+            "Mô tô, xe tải.",
+            "Cả ba xe."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "190",
+          "questionText": "Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Cả hai xe.",
+            "Xe mô tô.",
+            "Xe ô tô con.",
+            "Không xe nào vi phạm."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "181",
+          "questionText": "Xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Xe con và mô tô.",
+            "Xe con.",
+            "Mô tô.",
+            "Xe khách."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "172",
+          "questionText": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Mô tô, xe tải, xe khách, xe con.",
+            "Mô tô, xe tải, xe con, xe khách.",
+            "Xe khách, xe tải, mô tô, xe con.",
+            "Xe con, xe khách, xe tải, mô tô."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        },
+        {
+          "questionId": "197",
+          "questionText": "Bạn xử lý như thế nào trong trường hợp này?",
+          "options": [
+            "Tăng tốc độ, rẽ phải trước xe tải và xe đạp.",
+            "Giảm tốc độ, rẽ phải sau xe tải và xe đạp.",
+            "Tăng tốc độ, rẽ phải trước xe đạp."
+          ],
+          "userAnswer": "Không chọn",
+          "isCorrect": false
+        }
+      ],
+      "score": 0,
+      "total": 25,
+      "type": "Đề thi ngẫu nhiên 25 câu"
+    },
+    {
+      "id": "1dd9",
+      "userId": "1",
+      "time": 1752845535663,
+      "userAnswers": {
+        "0": "Cả ý 1 và ý 2.",
+        "1": "Không được phép.",
+        "2": "Không được phép."
+      },
+      "detailedResults": [
+        {
+          "questionId": "9",
+          "questionText": "“Phương tiện tham gia giao thông đường bộ” gồm những loại nào?",
+          "options": [
+            "Phương tiện giao thông thô sơ đường bộ và xe máy chuyên dùng.",
+            "Phương tiện giao thông cơ giới đường bộ.",
+            "Cả ý 1 và ý 2."
+          ],
+          "userAnswer": "Cả ý 1 và ý 2.",
+          "correctAnswer": "Cả ý 1 và ý 2.",
+          "isCorrect": true
+        },
+        {
+          "questionId": "27",
+          "questionText": "Khi điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy, những hành vi buông cả hai tay; sử dụng xe để kéo, đẩy xe khác, vật khác; sử dụng chân chống của xe quệt xuống đường khi xe đang chạy có được phép hay không?",
+          "options": [
+            "Không được phép.",
+            "Tùy trường hợp.",
+            "Được phép."
+          ],
+          "userAnswer": "Không được phép.",
+          "correctAnswer": "Không được phép.",
+          "isCorrect": true
+        },
+        {
+          "questionId": "30",
+          "questionText": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được bám, kéo hoặc đẩy các phương tiện khác không?",
+          "options": [
+            "Được phép.",
+            "Được bám trong trường hợp phương tiện của mình bị hỏng.",
+            "Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng.",
+            "Không được phép."
+          ],
+          "userAnswer": "Không được phép.",
+          "correctAnswer": "Không được phép.",
+          "isCorrect": true
+        },
+        {
+          "questionId": "22",
+          "questionText": "Trong trường hợp đặc biệt, để được lắp đặt, sử dụng còi, đèn không đúng với thiết kế của nhà sản xuất đối với từng loại xe cơ giới bạn phải đảm bảo yêu cầu nào dưới đây?",
+          "options": [
+            "Phải là xe đăng ký và hoạt động tại các khu vực có địa hình phức tạp.",
+            "Phải được chấp thuận của cơ quan có thẩm quyền.",
+            "Phải đảm bảo phụ tùng do đúng nhà sản xuất đó cung cấp."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Phải được chấp thuận của cơ quan có thẩm quyền.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "36",
+          "questionText": "Người đủ 16 tuổi được điều khiển các loại xe nào dưới đây?",
+          "options": [
+            "Xe mô tô 2 bánh có dung tích xi lanh từ 50 cm3 trở lên.",
+            "Xe gắn máy có dung tích xi lanh dưới 50 cm3.",
+            "Xe ô tô tải dưới 3,5 tấn; xe chở người đến 9 chỗ ngồi.",
+            "Tất cả các ý nêu trên."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Xe gắn máy có dung tích xi lanh dưới 50 cm3.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "6",
+          "questionText": "Đường mà trên đó phương tiện tham gia giao thông được các phương tiện giao thông đến từ các hướng khác nhường đường khi qua nơi đường giao nhau, được cắm biển báo hiệu đường ưu tiên là loại đường gì?",
+          "options": [
+            "Đường quốc lộ.",
+            "Đường ưu tiên.",
+            "Đường tỉnh lộ.",
+            "Đường không ưu tiên"
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Đường ưu tiên.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "12",
+          "questionText": "Khái niệm “người điều khiển giao thông” được hiểu như thế nào là đúng?",
+          "options": [
+            "Là cảnh sát giao thông, người được giao nhiệm vụ hướng dẫn giao thông tại nơi thi công, nơi ùn tắc giao thông, ở bến phà, tại cầu đường bộ đi chung với đường sắt.",
+            "Là người điều khiển phương tiện tham gia giao thông tại nơi thi công, nơi ùn tắc giao thông, ở bến phà, tại cầu đường bộ đi chung với đường sắt.",
+            "Là người tham gia giao thông tại nơi thi công, nơi ùn tắc giao thông, ở bến phà, tại cầu đường bộ đi chung với đường sắt."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Là cảnh sát giao thông, người được giao nhiệm vụ hướng dẫn giao thông tại nơi thi công, nơi ùn tắc giao thông, ở bến phà, tại cầu đường bộ đi chung với đường sắt.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "39",
+          "questionText": "Biển báo hiệu có dạng hình tròn, viền đỏ, nền trắng, trên nền có hình vẽ hoặc chữ số, chữ viết màu đen là loại biển gì dưới đây?",
+          "options": [
+            "Biển báo hiệu lệnh.",
+            "Biển báo cấm.",
+            "Biển báo nguy hiểm.",
+            "Biển báo chỉ dẫn."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Biển báo cấm.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "91",
+          "questionText": "Khi tránh nhau trên đường hẹp, người lái xe cần phải chú ý những điểm nào để đảm bảo an toàn giao thông?",
+          "options": [
+            "Không nên đi cố vào đường hẹp; xe đi ở phía sườn núi nên dừng lại trước để nhường đường; khi dừng xe nhường đường phải đỗ ngay ngắn.",
+            "Trong khi tránh nhau không nơi đổi số; khi tránh nhau ban đêm, phải tắt đèn pha bật đèn cốt.",
+            "Khi tránh nhau ban đêm, phải thường xuyên bật đèn pha tắt đèn cốt.",
+            "Cả ý 1 và ý 2."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Cả ý 1 và ý 2.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "82",
+          "questionText": "Người điều khiển xe mô tô phải giảm tốc độ và hết sức thận trọng khi qua những đoạn đường nào dưới đây?",
+          "options": [
+            "Đường ướt, đường có sỏi cát trên nền đường.",
+            "Đường hẹp có nhiều điểm giao cắt từ hai phía.",
+            "Đường đèo dốc, vòng liên tục.",
+            "Tất cả các ý nêu trên."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Tất cả các ý nêu trên.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "61",
+          "questionText": "Người điều khiển xe mô tô hai bánh, xe gắn máy có được đi xe dàn hàng ngang; xe đi vào phần đường dành cho người đi bộ và phương tiện khác; sử dụng ô, điện thoại di động, thiết bị âm thanh (trừ thiết bị trợ thính) hay không?",
+          "options": [
+            "Được phép nhưng phải đảm bảo an toàn.",
+            "Không được phép.",
+            "Được phép tùy từng hoàn cảnh, điều kiện cụ thể."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Không được phép.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "85",
+          "questionText": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
+          "options": [
+            "Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông.",
+            "Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đạt chuẩn, cài quai đúng quy định.",
+            "Điều khiển xe và đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đạt chuẩn, cài quai đúng quy định.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "42",
+          "questionText": "Biển báo hiệu hình chữ nhật hoặc hình vuông hoặc hình mũi tên nền xanh lam là loại biển gì dưới đây?",
+          "options": [
+            "Biển báo nguy hiểm.",
+            "Biển báo cấm.",
+            "Biển báo chỉ dẫn.",
+            "Biển báo hiệu lệnh phải thi hành."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Biển báo chỉ dẫn.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "132",
+          "questionText": "Biển nào báo hiệu, chỉ dẫn xe đi trên đường này được quyền ưu tiên qua nơi giao nhau?",
+          "options": [
+            "Cả ba biển.",
+            "Biển 2 và 3.",
+            "Biển 1 và 3.",
+            "Biển 1 và 2."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Biển 1 và 3.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "108",
+          "questionText": "Biển nào cấm các phương tiện giao thông đường bộ rẽ trái?",
+          "options": [
+            "Biển 2 và 3.",
+            "Biển 1 và 3.",
+            "Biển 1 và 2.",
+            "Cả ba biển."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Biển 1 và 2.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "116",
+          "questionText": "Gặp biển nào xe xích lô được phép đi vào?",
+          "options": [
+            "Biển 1.",
+            "Biển 2.",
+            "Biển 3.",
+            "Biển 1 và biển 2."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Biển 1 và biển 2.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "112",
+          "questionText": "Biển nào là biển “Cấm đi ngược chiều”?",
+          "options": [
+            "Cả ba biển.",
+            "Biển 2.",
+            "Biển 1."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Biển 2.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "172",
+          "questionText": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Mô tô, xe tải, xe con, xe khách.",
+            "Xe con, xe khách, xe tải, mô tô.",
+            "Mô tô, xe tải, xe khách, xe con.",
+            "Xe khách, xe tải, mô tô, xe con."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Mô tô, xe tải, xe khách, xe con.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "168",
+          "questionText": "Trường hợp này xe nào được quyền đi trước?",
+          "options": [
+            "Mô tô.",
+            "Xe con."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Xe con.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "193",
+          "questionText": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Cả bốn xe.",
+            "Xe con, xe khách, xe tải.",
+            "Xe tải, xe khách, xe mô tô.",
+            "Xe khách, xe mô tô, xe con."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Xe tải, xe khách, xe mô tô.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "170",
+          "questionText": "Theo tín hiệu đèn, xe nào được phép đi?",
+          "options": [
+            "Xe con và xe khách.",
+            "Mô tô."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Xe con và xe khách.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "167",
+          "questionText": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+          "options": [
+            "Xe tải, xe con, mô tô.",
+            "Xe con, xe tải, mô tô.",
+            "Mô tô, xe con, xe tải.",
+            "Xe con, mô tô, xe tải."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Mô tô, xe con, xe tải.",
+          "isCorrect": false
+        },
+        {
+          "questionId": "187",
+          "questionText": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Xe khách (B), mô tô (D).",
+            "Xe khách (B), mô tô (C).",
+            "Xe tải (A), mô tô (D).",
+            "Xe con (E), mô tô (C)."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Xe con (E), mô tô (C).",
+          "isCorrect": false
+        },
+        {
+          "questionId": "188",
+          "questionText": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+          "options": [
+            "Tất cả các loại xe trên.",
+            "Xe con (E), mô tô (D).",
+            "Xe con (A), mô tô (C).",
+            "Xe con (B), mô tô (C)."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Xe con (E), mô tô (D).",
+          "isCorrect": false
+        },
+        {
+          "questionId": "178",
+          "questionText": "Xe nào được quyền đi trước trong trường hợp này?",
+          "options": [
+            "Xe con.",
+            "Xe mô tô."
+          ],
+          "userAnswer": "Không chọn",
+          "correctAnswer": "Xe mô tô.",
+          "isCorrect": false
+        }
+      ],
+      "score": 3,
+      "total": 25,
+      "type": "Đề thi ngẫu nhiên 25 câu"
     }
   ],
   "history": [
@@ -701,6 +1936,38 @@
       "userId": "2",
       "time": 1752807768584,
       "score": 1,
+      "total": 25,
+      "type": "Đề thi ngẫu nhiên 25 câu"
+    },
+    {
+      "id": "9a41",
+      "userId": "1",
+      "time": 1752844983980,
+      "score": 0,
+      "total": 25,
+      "type": "Đề thi ngẫu nhiên 25 câu"
+    },
+    {
+      "id": "0a9a",
+      "userId": "1",
+      "time": 1752845038108,
+      "score": 0,
+      "total": 25,
+      "type": "Đề thi ngẫu nhiên 25 câu"
+    },
+    {
+      "id": "0b27",
+      "userId": "1",
+      "time": 1752845094354,
+      "score": 0,
+      "total": 25,
+      "type": "Đề thi ngẫu nhiên 25 câu"
+    },
+    {
+      "id": "225f",
+      "userId": "1",
+      "time": 1752845535663,
+      "score": 3,
       "total": 25,
       "type": "Đề thi ngẫu nhiên 25 câu"
     }

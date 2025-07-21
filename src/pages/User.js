@@ -3,9 +3,9 @@ import { useState } from "react";
 import axios from "axios";
 import { userContext } from "../userContext";
 
-const API_Q = "http://localhost:3001/questions";
-const API_H = "http://localhost:3001/history";
-const API_T = "http://localhost:3001/test";
+const API_Q = "http://localhost:3002/questions";
+const API_H = "http://localhost:3002/history";
+const API_T = "http://localhost:3002/test";
 
 const User = () => {
     const [qNum, setQNum] = useState(0);
@@ -24,9 +24,10 @@ const User = () => {
             const response = await axios.get(API_Q);
             if (response) {
                 const questionsWithAnswerText = response.data.map(q => {
-                    const idx = typeof q.answer === 'number' ? q.answer : parseInt(q.answer);
-                    const correctAnswerText = q.options[idx + 1];
+                    const idx = q.answer;
+                    const correctAnswerText = q.options[idx - 1];
                     const shuffledOptions = [...q.options].sort(() => 0.5 - Math.random());
+                    console.log(correctAnswerText)
                     return {
                         ...q,
                         options: shuffledOptions,
@@ -112,7 +113,6 @@ const User = () => {
                     const userAnswer = answer[index] ? answer[index] : 'Không chọn';
                     const correctAnswer = q.answer;
                     const isCorrect = userAnswer === correctAnswer;
-                    console.log(userAnswer)
                     if (isCorrect) {
                         result++;
                     }

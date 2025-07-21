@@ -3,7 +3,7 @@ import { userContext } from "../userContext"
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-const API_USER = "http://localhost:3001/user";
+const API_USER = "http://localhost:3002/user";
 
 const Register = () => {
     const navigate = useNavigate();
