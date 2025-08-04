@@ -3,7 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom"
 import { userContext } from "../userContext";
 
-const API_QUESTION = 'http://localhost:3001/questions'
+const API_QUESTION = 'http://localhost:3002/questions'
 
 const EditQ = () => {
     const navigate = useNavigate()

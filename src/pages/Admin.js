@@ -3,7 +3,7 @@ import axios from "axios";
 import { userContext } from "../userContext";
 import { useNavigate } from "react-router-dom";
 
-const API_QUES = "http://localhost:3001/questions"
+const API_QUES = "http://localhost:3002/questions"
 
 const Admin = () => {
     const navigate = useNavigate();
